@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monthly Goals"
+            android:textColor="@color/text_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clean money control, same engine, new skin"
+            android:textColor="@color/text_muted"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+        <EditText
+            android:id="@+id/edtMonth"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_input"
+            android:hint="Month (2026-06)"
+            android:padding="14dp" />
+        <EditText
+            android:id="@+id/edtMinGoal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_input"
+            android:hint="Minimum Goal"
+            android:padding="14dp" android:inputType="numberDecimal" />
+        <EditText
+            android:id="@+id/edtMaxGoal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_input"
+            android:hint="Maximum Goal"
+            android:padding="14dp" android:inputType="numberDecimal" />
+        <Button
+            android:id="@+id/btnSaveGoal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="Save Goal" />
+    </LinearLayout>
+</ScrollView>

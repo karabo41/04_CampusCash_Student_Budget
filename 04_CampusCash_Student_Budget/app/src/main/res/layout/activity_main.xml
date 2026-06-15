@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:id="@+id/txtWelcome" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Welcome" android:textColor="@color/text_dark" android:textSize="28sp" android:textStyle="bold" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp" android:layout_marginTop="18dp" android:background="@drawable/bg_card">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="This month" android:textColor="@color/text_muted" android:textSize="14sp" />
+            <TextView android:id="@+id/txtMonthlySpending" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="R0.00" android:textColor="@color/blue_primary" android:textSize="42sp" android:textStyle="bold" android:layout_marginTop="6dp" />
+            <TextView android:id="@+id/txtGoalStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Goal progress will appear here" android:textColor="@color/text_dark" android:textSize="15sp" android:layout_marginTop="8dp" />
+            <ProgressBar android:id="@+id/progressGoal" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="16dp" android:max="100" android:progress="0" android:layout_marginTop="14dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:layout_marginTop="14dp" android:background="@drawable/bg_card_alt">
+            <TextView android:id="@+id/txtOverspending" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No overspending detected" android:textColor="@color/success_green" android:textSize="15sp" />
+            <TextView android:id="@+id/txtBadgeSummary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Badges earned: 0" android:textColor="@color/text_muted" android:textSize="15sp" android:layout_marginTop="8dp" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Navigation" android:textColor="@color/text_dark" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="20dp" />
+            <Button
+                android:id="@+id/btnAddExpense"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_nav_button"
+                android:text="＋ Add Expense"
+                android:textColor="@color/text_dark" />
+            <Button
+                android:id="@+id/btnCategories"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_nav_button"
+                android:text="▦ Categories"
+                android:textColor="@color/text_dark" />
+            <Button
+                android:id="@+id/btnGoals"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_nav_button"
+                android:text="◎ Monthly Goals"
+                android:textColor="@color/text_dark" />
+            <Button
+                android:id="@+id/btnReports"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_nav_button"
+                android:text="≡ Reports"
+                android:textColor="@color/text_dark" />
+            <Button
+                android:id="@+id/btnGraph"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_nav_button"
+                android:text="▥ Spending Graph"
+                android:textColor="@color/text_dark" />
+            <Button
+                android:id="@+id/btnBadges"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_nav_button"
+                android:text="◇ Badges"
+                android:textColor="@color/text_dark" />
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_nav_button"
+                android:text="↩ Logout"
+                android:textColor="@color/text_dark" />
+    </LinearLayout>
+</ScrollView>
