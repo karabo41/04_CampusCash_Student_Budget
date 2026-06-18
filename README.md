@@ -5,7 +5,7 @@ Overview
 CampusCash is a mobile budgeting application developed to help students manage their personal finances effectively. The application allows users to track expenses, monitor spending habits, set budgets, and view their remaining available funds.
 
 The main goal of CampusCash is to provide a simple, user-friendly, and accessible solution for financial management, especially for students who need an easy way to manage their daily expenses and savings.
-[▶️ Watch Demo Video]https://youtube.com/shorts/SQeQ87wGqFQ?si=HWw6gCfWanLFQBnV
+[▶️ Watch Demo Video]https:https://youtube.com/watch?v=1w1FMB8Re1Q&si=2LLvbTBKYojcT9bk
 ⸻
 
 Features
